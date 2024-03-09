@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     string pswrd = "";
-    string wait = "";
+    string wait;
     int val;
     char comp[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
                    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
@@ -25,7 +25,6 @@ int main() {
     }
 
     cout << pswrd << endl;
-    cout << "Press any key:";
     cin >> wait;
     return 0;
 }
